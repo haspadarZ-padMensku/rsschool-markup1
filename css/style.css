@@ -1,0 +1,397 @@
+body {
+  box-sizing: border-box;
+}
+
+/*page-header*/
+
+.page-header {
+  
+  /*min-height: 1064px;*/
+}
+
+.page-header__wrapper {
+  
+}
+
+.page-header__logo {
+  
+}
+
+.main-nav {
+  
+}
+
+.main-nav__link {
+  
+}
+
+.main-nav__link:hover {
+  
+}
+
+.page-header__banner {
+  
+}
+
+.baner__text {
+  
+}
+
+.baner__text b {
+  
+}
+
+.baner__text p {
+  
+}
+
+.entry-panel {
+  
+}
+
+.entry-panel__btn {
+  
+}
+
+.entry-panel__btn--blue {
+  
+}
+
+.entry-panel__btn--green {
+  
+}
+
+/*page-header*/
+
+/*page-main*/
+
+.page-main {
+  
+}
+
+.page-main__wrapper {
+  
+}
+
+/*domain*/
+
+.domain {
+  
+}
+
+.domain__title {
+  
+}
+
+.domain__description {
+  
+}
+
+.domain__input-section {
+  
+}
+
+.domain__web {
+  
+}
+
+.domain__input {
+  
+}
+
+.domain__select {
+  
+}
+
+.domain__table-prise {
+  
+}
+
+.domain__table-row {
+  
+}
+
+.domain__table-row td {
+  
+}
+
+/*domain*/
+
+/*packages*/
+
+.packeges {
+  
+}
+
+.package-item {
+  
+}
+
+.package-item--yellow {
+  
+}
+
+.package-item--grey {
+  
+}
+
+.package-item--red {
+  
+}
+
+.package-item--green {
+  
+}
+
+.package-item__header {
+  
+}
+
+.package-item__logo {
+  
+}
+
+.package-item__title {
+  
+}
+
+.package-item__features {
+  
+}
+
+.package-item__features tr{
+  
+}
+
+.package-item__features tr td{
+  
+}
+
+.package-item__price {
+  
+}
+
+.package-item__price span{
+  
+}
+
+.package-item__btn {
+  
+}
+
+/*packages*/
+
+/*about us*/
+
+.about-us {
+  
+}
+
+.about-us__description {
+  
+}
+
+.about-us__description h3{
+  
+}
+
+.about-us__description span{
+  
+}
+
+.our-team {
+  
+}
+
+.out-team__item {
+  
+}
+
+.out-team__item img{
+  
+}
+
+.out-team__item img{
+  
+}
+
+.out-team__person-name {
+  
+}
+
+.out-team__social {
+  
+}
+
+.out-team__social a{
+  
+}
+/*about us*/
+
+/*comments*/
+
+.comments {
+  
+}
+
+.comments__message {
+  
+}
+
+.comments__message p{
+  
+}
+
+.comments__message cite{
+  
+}
+
+/*comments*/
+
+/*functions*/
+
+.functions {
+  
+}
+
+.functions-item {
+  
+}
+
+.functions-item--yellow {
+  
+}
+
+.functions-item--blue {
+  
+}
+
+.functions-item--grey {
+  
+}
+
+.functions-item--red {
+  
+}
+
+.functions-item a {
+  
+}
+
+.functions-item__logo {
+  
+}
+
+.functions-item__title {
+  
+}
+
+.functions-item__description {
+  
+}
+
+/*functions*/
+
+/*page-main*/
+
+/*footer*/
+
+.page-footer {
+  
+}
+
+.page-footer__wrapper {
+  
+}
+
+/*footer-top-menu*/
+
+.footer-top-menu {
+  
+}
+
+.page-footer__logo {
+  
+}
+
+.page-footer__logo img{
+  
+}
+
+.footer-nav {
+  
+}
+
+.footer-nav__link {
+  
+}
+/*footer-top-menu*/
+
+/*footer-bottom*/
+
+.footer-bottom {
+  
+}
+
+.footer-bottom__copyright {
+  
+}
+
+.footer-bottom__copyright p{
+  
+}
+
+.footer-bottom__copyright span{
+  
+}
+
+.footer-bottom__links {
+  
+}
+
+.footer-bottom__links-table {
+  
+}
+
+.footer-bottom__links-table ul{
+  
+}
+
+.footer-bottom__links-table li{
+  
+}
+
+.footer-bottom__links-table a{
+  
+}
+
+.footer-bottom__contacts {
+
+}
+
+.footer-bottom__phone {
+
+}
+
+.footer-bottom__phone a{
+  
+}
+
+.footer-bottom__email {
+
+}
+
+.footer-bottom__email a{
+  
+}
+
+.footer-bottom__address {
+
+}
+
+.footer-bottom__address p{
+  
+}
+/*footer-bottom*/
+
+/*footer*/

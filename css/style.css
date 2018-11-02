@@ -252,7 +252,6 @@ ul {
 .domain__input-section {
   display: flex;
   justify-content: space-between;
-  /*align-items: center;*/
   border: 1px solid #d9d9d9;
   height: 48px;
   width: 890px;
@@ -263,7 +262,6 @@ ul {
   font-family: Lato-Regular;
   color: #cbcbcb;
   font-size: 15px;
-  /*align-content: center;*/
   padding: 0 17px 0 17px;
 }
 
@@ -357,25 +355,130 @@ ul {
 
 /*packages*/
 
-.packeges {}
+.packeges {
+  background:url(../img/packages-photo.jpg) no-repeat;
+  height: 766px;
+  width: 1600px;
+  margin: 0 auto;
+}
 
-.package-item {}
+.packeges__wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 100px 0 10px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
 
-.package-item--yellow {}
+.package-item {
+  background-color: white;
+  margin: 0 60px 0 0;
+  width: 255px;
+  height: 566px;
+  border-top: 6px solid black;
+  padding: 36px 0 0 0;
+  box-shadow: 0rem 0rem 1rem 0 rgba(0,0,0,.1);
+}
+
+.package-item:last-child {
+  margin: 0 0 0 0;
+}
+
+.package-item--yellow{
+}
 
 .package-item--grey {}
 
 .package-item--red {}
 
 .package-item--green {}
+/*circle*/
+.package-item--yellow .circle{
+  stroke: #f9d423;
+}
 
-.package-item__header {}
+.package-item--grey .circle{
+  stroke: #7f8c8d;
+}
 
-.package-item__logo {}
+.package-item--red .circle{
+  stroke: #f85f40;
+}
 
-.package-item__title {}
+.package-item--green .circle{
+  stroke: #1abc9c;
+}
 
-.package-item__features {}
+.package-item--yellow td:last-child{
+  color: #f9d423;
+}
+
+.package-item--grey td:last-child{
+  color: #7f8c8d;
+}
+
+.package-item--red td:last-child{
+  color: #f85f40;
+}
+
+.package-item--green td:last-child{
+  color: #1abc9c;
+}
+
+.package-item__header {
+  margin: 0;
+  padding: 0;
+  
+}
+
+.package-item__logo {
+  position: relative;
+}
+
+.package-item__logo i{
+  position: absolute;
+  right: 46.8%;
+  top: 35%;
+  color: black;
+}
+
+
+/**/
+.circular-chart {
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+  max-width: 50%;
+  max-height: 55px;
+}
+
+.circle {
+  stroke: #4CC790;
+  fill: none;
+  stroke-width: 2.8;
+  stroke-linecap: round;
+  animation: progress 1s ease-out forwards;
+}
+
+@keyframes progress {
+  0% {
+    stroke-dasharray: 0 100;
+  
+}
+/**/
+.package-item__title {
+  font-family: Lato-Bold;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.package-item__features {
+  font-family: Lato-Regular;
+  font-size: 16px;
+  color: #cbcbcb;
+  margin-top: 100px;
+}
 
 .package-item__features tr {}
 
@@ -385,7 +488,12 @@ ul {
 
 .package-item__price span {}
 
-.package-item__btn {}
+.package-item__btn {
+  font-family: Lato-Bold;
+  font-size: 16px;
+  color: #282828;
+  text-transform: uppercase;
+}
 
 /*packages*/
 

@@ -114,14 +114,24 @@ ul {
   align-items: center;
 }
 
-.baner__text {}
-
-.baner__text b {
+.baner__greeting {
   font-family: Myriad-Pro-Bold;
-  font-size: 4.5rem;
+  font-size: 72px;
+  padding: 0;
+  margin: 0 0 10px 0;
+  text-align: center;
+  text-transform: uppercase;
 }
 
-.baner__text p {}
+.baner__text {
+  font-family: Georgia, Arial, sans-serif;
+  font-style: italic;
+  font-size: 2rem;
+  line-height: 47px;
+  padding: 0;
+  margin: 0 0 15px 0;
+  text-align: center;
+}
 
 .entry-panel {}
 

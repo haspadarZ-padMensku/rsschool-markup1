@@ -319,24 +319,6 @@ ul {
   margin: 40px 0 0 0;
 }
 
-.domain__table-prise::before {
-  content: "";
-  width: 26px;
-  height: 193px;
-  background-color: white;
-  position: absolute;
-  right: 72%;
-}
-
-.domain__table-prise::after {
-  content: "";
-  width: 26px;
-  height: 193px;
-  background-color: white;
-  position: absolute;
-  left: 72%;
-}
-
 .domain__table-wrapper {
   display: flex;
   align-items: center;
@@ -693,9 +675,7 @@ ul {
   display: flex;
 }
 
-.comments-trigger {
-
-}
+.comments-trigger {}
 
 .comments-trigger__btn {
   display: inline-block;
@@ -717,25 +697,83 @@ ul {
 
 /*functions*/
 
-.functions {}
+.functions {
+  width: 1600px;
+  height: 340px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
 
-.functions-item {}
+.functions__wrapper {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+}
 
-.functions-item--yellow {}
+.functions-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 225px;
+}
 
-.functions-item--blue {}
+.functions-item__logo--yellow {
+  background: #f1c40f;
+}
 
-.functions-item--grey {}
+.functions-item__logo--blue {
+  background: #0faff1;
+}
 
-.functions-item--red {}
+.functions-item__logo--grey {
+  background: #95a5a6;
+}
 
-.functions-item a {}
+.functions-item__logo--red {
+  background: #f1540f;
+}
 
-.functions-item__logo {}
+.functions-item a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-.functions-item__title {}
+.functions-item__logo {
+  position: relative;
+  /*background: grey;*/
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+}
 
-.functions-item__description {}
+.functions-item__logo i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+}
+
+.functions-item__title {
+  font-family: Lato-Heavy;
+  font-size: 19px;
+  color: #303030;
+  margin: 20px 0 0 0;
+}
+
+.functions-item__description {
+  font-family: Lato-Light;
+  font-size: 16px;
+  line-height: 22px;
+  color: #7e7e7e;
+  text-align: center;
+  margin: 7px 0 0 0;
+}
 
 /*functions*/
 

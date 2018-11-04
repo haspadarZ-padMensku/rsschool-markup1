@@ -29,6 +29,16 @@
 }
 
 @font-face {
+  font-family: Lato-Black;
+  src: url("/fonts/Lato/Lato-Black.ttf");
+}
+
+@font-face {
+  font-family: Lato-Thin;
+  src: url("/fonts/Lato/Lato-Thin.ttf");
+}
+
+@font-face {
   font-family: Myriad-Pro-Bold;
   src: url("/fonts/MyriadPro/Myriad-Pro-Bold.ttf");
 }
@@ -537,7 +547,7 @@ ul {
   font-size: 16px;
   text-transform: uppercase;
   border-top: 3px solid;
-  padding: 20px;
+  padding: 20px 0 20px 0;
 }
 
 .package-item__price span {
@@ -552,27 +562,96 @@ ul {
 
 /*about us*/
 
-.about-us {}
+.about-us {
+  width: 1600px;
+  height: 400px;
+  margin: 0 auto;
+}
 
-.about-us__description {}
+.about-us__wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 70px 0 10px 0;
+  display: flex;
+  flex-direction: row;
+  border-top: 3px dotted rgba(44,62,80, 0.15);
+}
 
-.about-us__description h3 {}
+.about-us__description {
+  width: 48.5%;
+  font-family: Lato-Thin;
+  font-size: 18px;
+  line-height: 28px;
+  color: rgba(116, 116, 116, 255);
+}
 
-.about-us__description span {}
+.about-us__description h3 {
+  font-family: Lato-Black, Arial, sans-serif;
+  font-size: 35px;
+  color: rgba(48, 48, 48, 255);
+  margin-bottom: 25px;
+}
 
-.our-team {}
+.about-us__description span {
+  font-family: Lato-Semibold, Arial, sans-serif;
+  font-size: 35px;
+}
 
-.out-team__item {}
+.about-us__description p {
+  padding: 0 80px 0 0;
+}
 
-.out-team__item img {}
+.our-team {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 51.5%;
+  padding: 0 24px 0 102px;
+  border-left: 3px dotted rgba(44,62,80, 0.15);
+}
 
-.out-team__item img {}
+.out-team__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+}
 
-.out-team__person-name {}
+.out-team__item img {
+  box-sizing: border-box;
+  border: 6px solid #e5e5e5;
+  border-radius: 50%;
+}
 
-.out-team__social {}
+.out-team__person-name {
+  font-family: Lato-Semibold, Arial, sans-serif;
+  font-size: 17px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 18px 0 15px 0;
+}
 
-.out-team__social a {}
+.out-team__person-name span {
+  font-family: Lato-Regular;
+  font-size: 15px;
+  color: #8e8e8e;
+  margin: 5px 0 0 0;
+}
+
+.out-team__social {
+
+}
+
+.out-team__social a {
+  padding: 0 11px;
+  color: #747474;
+}
+
+.out-team__social a:hover {
+  color: #1f89ba;
+}
 
 /*about us*/
 

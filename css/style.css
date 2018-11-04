@@ -571,10 +571,10 @@ ul {
 .about-us__wrapper {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 70px 0 10px 0;
+  padding: 70px 0 0 0;
   display: flex;
   flex-direction: row;
-  border-top: 3px dotted rgba(44,62,80, 0.15);
+  border-top: 3px dotted rgba(44, 62, 80, 0.15);
 }
 
 .about-us__description {
@@ -608,7 +608,7 @@ ul {
   align-items: center;
   width: 51.5%;
   padding: 0 24px 0 102px;
-  border-left: 3px dotted rgba(44,62,80, 0.15);
+  border-left: 3px dotted rgba(44, 62, 80, 0.15);
 }
 
 .out-team__item {
@@ -640,10 +640,6 @@ ul {
   margin: 5px 0 0 0;
 }
 
-.out-team__social {
-
-}
-
 .out-team__social a {
   padding: 0 11px;
   color: #747474;
@@ -657,13 +653,65 @@ ul {
 
 /*comments*/
 
-.comments {}
+.comments {
+  width: 1600px;
+  height: 190px;
+  margin: 0 auto;
+  background: url("/img/comments-bg.jpg");
+  color: #ffffff;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
 
-.comments__message {}
+.comments__wrapper {
+  width: 1200px;
+  margin: 0 auto;
+}
 
-.comments__message p {}
+.comments__message {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  font-family: Lato-Light;
+  font-size: 20px;
+  line-height: 30px;
+  padding: 0 150px 0 150px;
+  margin: 0 0 0 0;
+}
 
-.comments__message cite {}
+.comments__message p {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.comments__message cite {
+  display: flex;
+}
+
+.comments-trigger {
+
+}
+
+.comments-trigger__btn {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border: 1px solid #ffffff;
+  border-radius: 50px;
+  margin-left: 12px;
+  cursor: pointer;
+  background: transparent;
+  padding: 0
+}
+
+.comments-trigger__btn.active {
+  background: #ffffff;
+}
 
 /*comments*/
 
